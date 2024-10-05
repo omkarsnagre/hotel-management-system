@@ -43,7 +43,10 @@ private static final String DB_USER = "root"; // MySQL username
 private static final String DB_PASSWORD = "root"; // MySQL password
 ```
 4. Compile and run the application.
-
+```bash
+javac *.java
+java BankingApp
+```
 ## Usage 📋
   Upon running the application, you'll be presented with a menu to choose your desired operation (reservation, viewing, editing, or exiting).
   Follow the prompts to input reservation details, view current reservations, edit existing bookings, and more.
